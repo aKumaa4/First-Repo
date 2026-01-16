@@ -14,3 +14,7 @@ app.listen(process.env.PORT, () => {
 
 
 //ETOOO AKOO NAGI ISISAISIA
+
+app.get('/', (req, res) => {
+    res.send('Hello World');
+}); 
