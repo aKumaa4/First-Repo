@@ -9,9 +9,12 @@ app.listen(process.env.PORT, () => {
 });
 
 //This is a test route wtffffff
-//This is a test route
+
+//FKING SHETTT
 
 
-//this is not a drill fk this shit
+//ETOOO AKOO NAGI ISISAISIA
 
-console.log('Hello World');
+app.get('/', (req, res) => {
+    res.send('Hello World');
+}); 
