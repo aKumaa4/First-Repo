@@ -13,3 +13,5 @@ app.listen(process.env.PORT, () => {
 
 
 //this is not a drill fk this shit
+
+console.log('Hello World');
