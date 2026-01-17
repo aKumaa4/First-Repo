@@ -22,4 +22,7 @@ app.get('/', (req, res) => {
 
 console.log(process.env.PORT);
 console.log(process.env.DATABASE_URL);
-console.log(process.env.SECRET_KEY);
+console.log(process.env.SECRET_KEY); //tama man yata ni dirigi
+
+
+//Trying gitlens
