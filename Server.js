@@ -21,3 +21,4 @@ app.get('/', (req, res) => {
 
 
 console.log(process.env.PORT);
+console.log(process.env.DATABASE_URL);
