@@ -18,3 +18,6 @@ app.listen(process.env.PORT, () => {
 app.get('/', (req, res) => {
     res.send('Hello World');
 }); 
+
+
+console.log(process.env.PORT);
